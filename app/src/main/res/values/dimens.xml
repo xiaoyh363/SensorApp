@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_padding_horizontal">16dp</dimen>
+    <dimen name="nav_header_padding_vertical">32dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="layout_padding">16dp</dimen>
+    <dimen name="lineChartHeight">248dp</dimen>
+    <dimen name="lineChartGAP">48dp</dimen>
+</resources>

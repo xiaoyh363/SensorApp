@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <!-- colorPrimary 应用的主要色调，actionBar默认使用该颜色，Toolbar导航栏的底色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- colorPrimaryDark 应用的主要暗色调，statusBarColor默认使用该颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- CheckBox，RadioButton，SwitchCompat等一般控件的选中效果默认采用该颜色 -->
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- 设置按钮样式 -->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+
+        <!-- 状态栏颜色 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- 登录界面 -->
+    <style name="StartStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 通过windowBackground可以设置背景色、背景图片、能解析出图片的XML文件等 -->
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--<style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>&lt;!&ndash;背景透明&ndash;&gt;
+        <item name="android:windowFrame">@null</item>&lt;!&ndash;边框&ndash;&gt;
+        <item name="android:windowNoTitle">true</item>&lt;!&ndash;无标题&ndash;&gt;
+        <item name="android:windowIsFloating">true</item>&lt;!&ndash;是否浮现在activity之上&ndash;&gt;
+        <item name="android:windowIsTranslucent">true</item>&lt;!&ndash;半透明&ndash;&gt;
+        <item name="android:windowContentOverlay">@null</item>&lt;!&ndash;内容覆盖 &ndash;&gt;
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>&lt;!&ndash; 窗口样式Dialog &ndash;&gt;
+        <item name="android:backgroundDimEnabled">true</item>&lt;!&ndash;模糊&ndash;&gt;
+    </style>-->
+
+</resources>
